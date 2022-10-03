@@ -1,0 +1,24 @@
+Product of array except itself
+==============================
+Ex:[1,2,3,4] -. [24,12,8,6]
+
+Constraints - O(n) time and O(1) space, array can be empty, ca contains negative numbers and also zeros.
+
+
+
+Solution
+========
+import math
+m=input()
+if(len(m)!=0):
+    k=list(map(int,m.split(" ")))
+    m=math.prod(k)
+    for i in range(len(k)):
+        if(k[i]==0):
+           continue
+        else:
+            k[i]=(m//k[i])
+
+    print(*k)
+else:
+    print("No input data")	
