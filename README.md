@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @vbscharan
-- 👀 I’m interested in Machine Learning and Deep Learning
-- 🌱 I’m currently learning Machine Learning
-- 💞️ I’m looking to collaborate on ML projects
+- 👀 I’m interested in DSA, Machine Learning and Deep Learning
 - 📫 How to reach me - Linked in
 
 <!---
